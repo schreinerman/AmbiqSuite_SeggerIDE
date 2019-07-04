@@ -1,5 +1,5 @@
 # AmbiqSuite_SeggerIDE
-Tool for automatically adding projects for Segger Embedded Studio
+Tool for automatically adding projects for Segger Embedded Studio in AmbiqSuite of Ambiq Micro
 
 Download the AmbiqSuiteSeggerProjectCreator.exe tool and start it in 
 
