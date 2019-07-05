@@ -1,5 +1,5 @@
 # AmbiqSuite_SeggerIDE
-Tool for automatically adding projects for Segger Embedded Studio in AmbiqSuite of Ambiq Micro downloadable at http://ambiqmicro.com. Debugging is usable J-Link and with evaluation boards with J-Link OB on board. 
+Tool for automatically adding projects for Segger Embedded Studio in AmbiqSuite of Ambiq Micro downloadable at http://ambiqmicro.com. Debugging is usable with J-Link and with evaluation boards with J-Link OB on board. 
 
 See also:
 - Apollo1 EVB: http://www.feeu.com/shopAMAP1EVB (Includes J-Link OB)
