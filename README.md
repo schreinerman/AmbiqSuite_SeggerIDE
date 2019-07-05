@@ -2,6 +2,7 @@
 Tool for automatically adding projects for Segger Embedded Studio in AmbiqSuite of Ambiq Micro downloadable at http://ambiqmicro.com. Debugging is usable with J-Link and with evaluation boards with J-Link OB on board. 
 
 See also:
+- Ambiq Micro MCU SDK "AmbiqSuite" download: http://ambiqmicro.com
 - Segger Embedded Studio download: https://www.segger.com/downloads/embedded-studio/
 - Segger J-Link: www.segger.com/j-link (starting with J-Link EDU Mini available for around 20$)
 
