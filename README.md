@@ -2,10 +2,10 @@
 Tool for automatically adding projects for Segger Embedded Studio in AmbiqSuite of Ambiq Micro downloadable at http://ambiqmicro.com. Debugging is usable with J-Link and with evaluation boards with J-Link OB on board. 
 
 See also:
-- Apollo1 EVB: http://www.feeu.com/shopAMAP1EVB (Includes J-Link OB)
-- Apollo2 EVB: http://www.feeu.com/shopAMAPHEVB (Includes J-Link OB)
-- Apollo2Blue EVB: http://www.feeu.com/shopAMA2BEVB (Includes J-Link OB)
-- Apollo3Blue EVB: http://www.feeu.com/shopAMA3BEVB (Includes J-Link OB)
+- Apollo1 EVB: https://shop.feeu.com/Shops/es966226/Products/AMAP1EVB (Includes J-Link OB)
+- Apollo2 EVB: https://shop.feeu.com/Shops/es966226/Products/AMAPHEVB (Includes J-Link OB)
+- Apollo2Blue EVB: https://shop.feeu.com/Shops/es966226/Products/AMA2BEVB (Includes J-Link OB)
+- Apollo3Blue EVB: https://shop.feeu.com/Shops/es966226/Products/AMA3BEVB (Includes J-Link OB)
 - ClickBeetle: http://www.feeu.com/clickbeetle (requires external J-Link)
 - Segger J-Link: www.segger.com/j-link (starting with J-Link EDU Mini available for around 20$)
 
