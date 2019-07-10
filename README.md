@@ -15,7 +15,7 @@ EVB with J-Link OB:
 ClickBeetle (BlueBeetle1 with Apollo1 and BlueBeetle5 with Apollo3Blue)
 - Entry page: http://www.feeu.com/clickbeetle (requires external J-Link)
 
-## Instructions
+## Instructions Windows
 
 ![Step 1](/instructions/images/01.png)
 
@@ -48,6 +48,34 @@ Wait program finishes its process
 ![Step 8](/instructions/images/08.png)
 
 Open an example by double click \<AmbiqSuite\>\boards\<boardname>\examples\<example>\segger\\*.EmProject
+
+## Instructions MacOS
+
+For MacOS most steps are the same like for Windows. To execute the program, the Mono framework is required.
+
+Mono Framework can be downloaded here: https://www.mono-project.com/download/stable/#download-mac
+
+After download had finished and Mono framework was installed, launch the Terminal. If both the AmbiqSuite and AmbiqSuiteSeggerProjectCreator.exe was downloaded into the Downloads folder (and the AmbiqSuite was automatically extracted), following code can be executed:
+
+```
+cd ~/Downloads
+mono AmbiqSuiteSeggerProjectCreator.exe AmbiqSuite-Rel2.2.0
+```
+
+![MacOS Terminal](/instructions/images/macOS_Terminal.png)
+
+## Instructions Linux
+
+For Linux most steps are the same like for Windows. To execute the program, the Mono framework is required. Instructions how to install Mono for your Linux distribution can be found here: https://www.mono-project.com/download/stable/#download-lin
+
+After download had finished and Mono framework was installed, launch the Terminal. If both the AmbiqSuite and AmbiqSuiteSeggerProjectCreator.exe was downloaded into the home/Downloads folder (and the AmbiqSuite was automatically extracted), following code can be executed:
+
+```
+sudo apt-get install unzip
+cd ~/Downloads
+unzip AmbiqSuite-Rel2.2.0.zip
+mono AmbiqSuiteSeggerProjectCreator.exe AmbiqSuite-Rel2.2.0
+```
 
 ## License
 
