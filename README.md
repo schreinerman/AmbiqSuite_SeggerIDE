@@ -17,13 +17,37 @@ ClickBeetle (BlueBeetle1 with Apollo1 and BlueBeetle5 with Apollo3Blue)
 
 ## Instructions
 
-Download the AmbiqSuiteSeggerProjectCreator.exe tool and start it in 
+![Step 1](/instructions/images/01.png)
 
-A) <AmbiqSuite_Root>\ to process all examples
+Download Segger Embedded Studio from https://www.segger.com/downloads/embedded-studio/
 
-B) <AmbiqSuite_Root>\boards\<board>\ to process all examples of a board
+![Step 2](/instructions/images/02.png)
 
-C) Execute AmbiqSuiteSeggerProjectCreator.exe within the example root to create a Segger project just for the example
+Download AmbiqSuite from the Ambiq Micro website http://ambiqmicro.com/mcu
+
+![Step 3](/instructions/images/03.png)
+
+Extract the donwloaded AmbiqSuite
+
+![Step 4](/instructions/images/04.png)
+
+Download AmbiqSuiteSeggerProjectCreator.exe from this repository https://github.com/schreinerman/AmbiqSuite_SeggerIDE/raw/master/AmbiqSuiteSeggerProjectCreator.exe
+
+![Step 5](/instructions/images/05.png)
+
+Place AmbiqSuiteSeggerProjectCreator.exe into the root folder of the extracted AmbiqSuite
+
+![Step 6](/instructions/images/06.png)
+
+Double click AmbiqSuiteSeggerProjectCreator.exe
+
+![Step 7](/instructions/images/07.png)
+
+Wait program finishes its process
+
+![Step 8](/instructions/images/08.png)
+
+Open an example by double click <AmbiqSuite>\boards\<boardname>\examples\<example>\segger\*.EmProject
 
 ## License
 
