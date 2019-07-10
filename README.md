@@ -47,7 +47,7 @@ Wait program finishes its process
 
 ![Step 8](/instructions/images/08.png)
 
-Open an example by double click <AmbiqSuite>\boards\<boardname>\examples\<example>\segger\*.EmProject
+Open an example by double click \<AmbiqSuite\>\boards\<boardname>\examples\<example>\segger\\*.EmProject
 
 ## License
 
