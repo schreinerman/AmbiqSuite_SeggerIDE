@@ -77,6 +77,8 @@ unzip AmbiqSuite-Rel2.2.0.zip
 mono AmbiqSuiteSeggerProjectCreator.exe AmbiqSuite-Rel2.2.0
 ```
 
+![Linux Terminal](/instructions/images/linux_terminal.png)
+
 ## License
 
 Created by Manuel Schreiner, Fujitsu Electronics Europe GmbH
