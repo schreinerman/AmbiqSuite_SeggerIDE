@@ -4,6 +4,7 @@ Tool for automatically adding projects for Segger Embedded Studio in AmbiqSuite 
 See also:
 - Ambiq Micro MCU SDK "AmbiqSuite" download: http://ambiqmicro.com
 - Segger Embedded Studio download: https://www.segger.com/downloads/embedded-studio/
+- Crossworks download: https://www.rowley.co.uk/
 - Segger J-Link: www.segger.com/j-link (starting with J-Link EDU Mini available for around 20$)
 
 EVB with J-Link OB:
@@ -20,6 +21,7 @@ ClickBeetle (BlueBeetle1 with Apollo1 and BlueBeetle5 with Apollo3Blue)
 ![Step 1](/instructions/images/01.png)
 
 Download Segger Embedded Studio from https://www.segger.com/downloads/embedded-studio/
+or download Crossworks from https://www.rowley.co.uk/
 
 ![Step 2](/instructions/images/02.png)
 
@@ -31,15 +33,15 @@ Extract the donwloaded AmbiqSuite
 
 ![Step 4](/instructions/images/04.png)
 
-Download AmbiqSuiteSeggerProjectCreator.exe from this repository https://github.com/schreinerman/AmbiqSuite_SeggerIDE/raw/master/AmbiqSuiteSeggerProjectCreator.exe
+Download AmbiqSuiteSeggerProjectCreator.exe from this repository https://github.com/schreinerman/AmbiqSuite_SeggerIDE/raw/master/AmbiqSuiteCrossworksProjectCreator.exe
 
 ![Step 5](/instructions/images/05.png)
 
-Place AmbiqSuiteSeggerProjectCreator.exe into the root folder of the extracted AmbiqSuite
+Place AmbiqSuiteCrossworksProjectCreator.exe into the root folder of the extracted AmbiqSuite
 
 ![Step 6](/instructions/images/06.png)
 
-Double click AmbiqSuiteSeggerProjectCreator.exe
+Double click AmbiqSuiteCrossworksProjectCreator.exe
 
 ![Step 7](/instructions/images/07.png)
 
@@ -47,7 +49,10 @@ Wait program finishes its process
 
 ![Step 8](/instructions/images/08.png)
 
-Open an example by double click \<AmbiqSuite\>\boards\<boardname>\examples\<example>\segger\\*.EmProject
+Open an example by double click 
+
+- for Segger IDE: \<AmbiqSuite\>\boards\<boardname>\examples\<example>\segger\\*.EmProject
+- for Crossworks: \<AmbiqSuite\>\boards\<boardname>\examples\<example>\crossworks\\*.hzp 
 
 ## Instructions MacOS
 
@@ -55,11 +60,11 @@ For MacOS most steps are the same like for Windows. To execute the program, the 
 
 Mono Framework can be downloaded here: https://www.mono-project.com/download/stable/#download-mac
 
-After download had finished and Mono framework was installed, launch the Terminal. If both the AmbiqSuite and AmbiqSuiteSeggerProjectCreator.exe was downloaded into the Downloads folder (and the AmbiqSuite was automatically extracted), following code can be executed:
+After download had finished and Mono framework was installed, launch the Terminal. If both the AmbiqSuite and AmbiqSuiteCrossworksProjectCreator.exe was downloaded into the Downloads folder (and the AmbiqSuite was automatically extracted), following code can be executed:
 
 ```
 cd ~/Downloads
-mono AmbiqSuiteSeggerProjectCreator.exe AmbiqSuite-Rel2.2.0
+mono AmbiqSuiteCrossworksProjectCreator.exe AmbiqSuite-Rel2.2.0
 ```
 
 ![MacOS Terminal](/instructions/images/macOS_Terminal.png)
@@ -68,13 +73,13 @@ mono AmbiqSuiteSeggerProjectCreator.exe AmbiqSuite-Rel2.2.0
 
 For Linux most steps are the same like for Windows. To execute the program, the Mono framework is required. Instructions how to install Mono for your Linux distribution can be found here: https://www.mono-project.com/download/stable/#download-lin
 
-After download had finished and Mono framework was installed, launch the Terminal. If both the AmbiqSuite and AmbiqSuiteSeggerProjectCreator.exe was downloaded into the home/Downloads folder (and the AmbiqSuite was automatically extracted), following code can be executed:
+After download had finished and Mono framework was installed, launch the Terminal. If both the AmbiqSuite and AmbiqSuiteCrossworksProjectCreator.exe was downloaded into the home/Downloads folder (and the AmbiqSuite was automatically extracted), following code can be executed:
 
 ```
 sudo apt-get install unzip
 cd ~/Downloads
 unzip AmbiqSuite-Rel2.2.0.zip
-mono AmbiqSuiteSeggerProjectCreator.exe AmbiqSuite-Rel2.2.0
+mono AmbiqSuiteCrossworksProjectCreator.exe AmbiqSuite-Rel2.2.0
 ```
 
 ![Linux Terminal](/instructions/images/linux_terminal.png)
