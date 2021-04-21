@@ -86,8 +86,8 @@ mono AmbiqSuiteCrossworksProjectCreator.exe AmbiqSuite-Rel2.2.0
 
 ## License
 
-Created by Manuel Schreiner, Fujitsu Electronics Europe GmbH
-Copyright © 2019 Fujitsu Electronics Europe GmbH. All rights reserved.
+Created by Manuel Schreiner,
+Copyright ©  2021 Manuel Schreiner. All rights reserved.
 
 1. Redistributions of binary or source code must retain the above copyright notice, this condition and the following disclaimer.
 
